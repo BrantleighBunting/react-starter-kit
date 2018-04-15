@@ -1,0 +1,49 @@
+{
+  "name": "react-starter-kit",
+  "version": "1.0.0",
+  "description": "\"my cool react app\"",
+  "main": "app.jsx",
+  "author": "Brantleigh Bunting",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "start:server": "nodemon dist/server/public/js/bundle.js --watch dist/server/",
+    "start:clent": "nodemon dist/client/js/bundle.js --watch dist/client/"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "copy-webpack-plugin": "^4.5.1",
+    "cors": "^2.8.4",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "http": "^0.0.0",
+    "image-webpack-loader": "^4.2.0",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "path": "^0.12.7",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "request": "^2.85.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.10.0",
+    "yarn-run-all": "^3.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-cli": "^2.0.14",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2"
+  }
+}
